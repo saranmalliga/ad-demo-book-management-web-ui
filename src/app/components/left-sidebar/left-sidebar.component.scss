@@ -1,0 +1,28 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    padding: 0;
+    width: 240px;
+  }
+  
+  .sidebar .navbar-nav {
+    width: 100%;
+  }
+  
+  .sidebar .nav-item {
+    margin-top: 10px;
+  }
+  
+  .sidebar .nav-link {
+    color: #c3d4e2;
+    font-weight: 500;
+  }
+  
+  .sidebar .nav-link.active {
+    color: #fff;
+    background-color: #007bff;
+  }
+  
